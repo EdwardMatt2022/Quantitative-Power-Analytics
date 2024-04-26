@@ -1,3 +1,5 @@
-The purpose of this project is to model energy demand (GWh) in ERCOT with indepedent variables such as temperature, EV stock prices, commodity prices, and macroeconomic indicators.
-We want to forecast demand and ERCOT was chosen to represent the American Power Market. Machine Learning algorithms will be tested by using an 80/20 train/test split and we will want to find the best econometric model.
-After the American model is finished we will then analyze the Spanish electricity market.
+The goal of this project is to model energy demand (GWh) in ERCOT with features that are correlated with generation.
+The steps of the project will first be feature engineering in improving our dataset such as adding labels for summer and winter in gathering insights from patterns seen in generation and temperature in Texas.
+The following step would be exploratory data analysis in getting a sense of the distribution and the skewness of the features.
+The final step would be the modelling process such as using Gradient Boosting to improve the accuracy of our predictions.
+
